@@ -82,7 +82,7 @@ fieldset {
 .search-form__fieldset-title {
   font-weight: 400;
   font-size: 18px;
-  line-height: 21.6px;
+  line-height: 1.2;
 }
 
 .search-form__label {
@@ -106,7 +106,7 @@ fieldset {
   font-family: inherit;
   font-weight: inherit;
   font-size: inherit;
-  line-height: 21.6px;
+  line-height: 1.2;
   color: inherit;
 }
 
@@ -177,7 +177,7 @@ input[type="checkbox"]:checked + .search-form__pseudo-checkbox::before {
   font-family: Oswald, sans-serif;
   font-weight: 700;
   font-size: 75px;
-  line-height: 70.5px;
+  line-height: 0.94;
   text-transform: uppercase;
 }
 
@@ -188,7 +188,7 @@ input[type="checkbox"]:checked + .search-form__pseudo-checkbox::before {
 .content__list {
   position: relative;
   height: 298px;
-  overflow: hidden auto;
+  overflow: auto;
 }
 
 .content__list-item:not(:last-child) {
@@ -235,7 +235,7 @@ input[type="checkbox"]:checked + .search-form__pseudo-checkbox::before {
   font-family: Oswald, sans-serif;
   font-weight: 700;
   font-size: 30px;
-  line-height: 30px;
+  line-height: 1;
   text-transform: uppercase;
   margin-bottom: 6px;
   overflow: hidden;
@@ -245,7 +245,7 @@ input[type="checkbox"]:checked + .search-form__pseudo-checkbox::before {
 
 .content__video-card-description {
   font-weight: 400;
-  line-height: 16.2px;
+  line-height: 0.9;
 }
 
 .content__video-card-thumbnail {
@@ -277,7 +277,7 @@ input[type="checkbox"]:checked + .search-form__pseudo-checkbox::before {
   font-family: inherit;
   font-weight: 700;
   font-size: inherit;
-  line-height: 21.6px;
+  line-height: 1.2;
   white-space: nowrap;
 }
 
