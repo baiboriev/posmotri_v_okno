@@ -9,6 +9,9 @@ html {
 }
 
 .page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   inline-size: 1200px;
   block-size: 100%;
   margin: auto;
@@ -39,12 +42,10 @@ ol {
 
 .content {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: flex-end;
-  width: 1140px;
+  inline-size: 1140px;
   gap: 30px;
-  margin: 133px 30px;
 }
 
 .result__video-container {
@@ -139,27 +140,26 @@ fieldset {
 }
 
 .search-form__pseudo-checkbox {
-  display: inline-block;
-  width: 19px;
-  height: 19px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  inline-size: 19px;
+  block-size: 19px;
   margin-right: 5px;
   border: 1px solid #fff;
-  vertical-align: middle;
 }
 
 .search-form__label:active .search-form__pseudo-checkbox::before {
   content: "";
-  display: block;
   background-color: #fff;
   width: 15px;
   height: 15px;
-  margin: 1px;
 }
 
 input[type="checkbox"]:checked + .search-form__pseudo-checkbox::before {
   content: "";
   display: block;
-  background-color: #fff;
+  background: #fff;
   width: 15px;
   height: 15px;
   margin: 1px;
